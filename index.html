@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Key System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🔑 Key System</h1>
+        <p>Choose a service to get your key:</p>
+        
+        <div class="service-selection">
+            <button class="service-btn" onclick="selectService('linkvertise')">
+                <span>📱 Linkvertise</span>
+                <small>Get key via Linkvertise</small>
+            </button>
+            <button class="service-btn" onclick="selectService('lootlabs')">
+                <span>🎮 Lootlabs</span>
+                <small>Get key via Lootlabs</small>
+            </button>
+        </div>
+        
+        <div id="loading" class="loading hidden">
+            <div class="spinner"></div>
+            <p>Initializing...</p>
+        </div>
+        
+        <div id="error" class="error hidden">
+            <p></p>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
