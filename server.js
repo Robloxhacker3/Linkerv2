@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3000;
 // Security middleware
 app.use(helmet());
 app.use(cors({
-  origin: ['https://Robloxhacker3.github.io', 'http://localhost:3000'], // Replace with your GitHub Pages URL
+  origin: ['https://Robloxhacker3.github.io', 'https://robloxhacker3.github.io/Linkerv2/'], // Replace with your GitHub Pages URL
   credentials: true
 }));
 
